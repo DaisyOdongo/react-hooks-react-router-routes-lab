@@ -2,7 +2,7 @@ import React from "react";
 import { movies } from "../data";
 
 function Movies() {
-  const motionPictures = movies.map((movie) => (
+   const motionPictures = movies.map((movie) => (
     <div key={movie.time}>
       <h2>Name: {movie.title}</h2>
       Time: {movie.time} <br/>
@@ -13,11 +13,11 @@ function Movies() {
         ))}
       </ul>
     </div>
-  ));
+  ))
 
   return (
     <div>
-      <h1>Movies</h1>
+      <h1>Movies Page</h1>
       {motionPictures}
     </div>
   );

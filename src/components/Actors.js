@@ -13,12 +13,12 @@ function Actors() {
       </ul>
     </div>
 
- ));
+  ))
 
- return <div>
-  <h1>Actors</h1>
+  return <div>
+    <h1>Actors Page</h1>
     {movieActors}
- </div>
+  </div>;
 }
 
 export default Actors;
